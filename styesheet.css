@@ -1,0 +1,301 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}/*stes margin and padding to 0 and selects font family*/
+
+
+/*   home page   */
+
+#sitename{
+	color: coral;
+	text-transform: uppercase;
+	font-size: 80px;
+	padding-top: 300px;
+	padding-left: 20%;
+}
+#tpo{
+	color: white;
+	font-size: 25px;
+	padding-left: 34%;
+	padding-top: 30px;
+}
+#myname{
+	color: white;
+	font-size: 50px;
+	padding-left: 25%;
+	padding-top: 20px;
+}
+.title{
+	width: 50%;
+	height: 850px;
+	background-color: rgba(48,47,52,1.00);
+	float: left;
+}
+.homewall{
+	float: right;
+	width: 50%;
+	height: 850px;
+	background-color: black;
+	background-image: url(homeimages/home_image.jpg);
+}
+#page1{
+	color: white;
+/*	color: #808285;*/
+	font-size: 45px;
+	margin-left: 35%;
+	margin-top: 100px;
+	text-decoration: none;
+	
+}
+#page2{
+	color: white;
+	font-size: 45px;
+	margin-left: 35%;
+	margin-top: 100px;
+	text-decoration: none;
+	
+}
+#page3{
+	color: white;
+	font-size: 45px;
+	margin-left: 35%;
+	margin-top: 100px;
+	text-decoration: none;
+	
+}
+#page4{
+	color: white;
+	font-size: 45px;
+	margin-left: 35%;
+	margin-top: 100px;
+	text-decoration: none;
+	
+}
+#page1:hover {
+	
+	color: darkorange;
+	
+}
+#page2:hover {
+	
+	color: darkorange;
+}
+#page4:hover {
+	
+	color: darkorange;
+}
+#page3:hover {
+	
+	color: darkorange;
+}
+
+
+.menubar {
+	background-color: rgba(48,47,52,1.00);
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+#name {
+	float: left;
+	padding-left: 150px;
+	color: white;
+	transition: .4s;
+}
+#name:hover {
+	color: coral;
+}
+/*style for the name*/
+
+.menu {
+	float: right;
+	padding-right: 150px;
+}/*puts the navigation to the right*/
+/*sets the distance between each navigtion*/
+
+/* heading of the pagr */
+.pageheading {
+	margin: 120px 650px;
+}
+
+.underline {
+	position: relative;
+	margin-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #808285;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: .4s;
+}
+.underline:hover {
+	color: white;
+	border-bottom: 3px solid coral;
+	border-top: 3px solid coral;
+}
+.content {
+	clear: both;
+	margin: 120px 400px;
+}/*defines margin for the content section*/
+.content h1 {
+	margin-bottom: 120px;
+	text-align: center;
+}/*styling for content heading*/
+.contact {
+	margin-bottom: 120px;
+}
+
+
+/*    css for projects page    */
+
+
+/* project title */
+
+#shreyatitle{
+	color: white;
+	font-size: 30px;
+	margin-left: 30px;
+}
+
+
+/* column one*/
+
+.proj {
+	margin-left: 130px;
+	margin-right: 0px;
+	float: left;
+}
+#shreyaimg {
+	margin: 20px;
+	width: 353px;
+	height: 529px;
+	background-image: url(projects/DSC_0086.jpg);
+	float: left;
+}
+#asteroid {
+	margin: 20px;
+	width: 353px;
+	height: 252px;
+	background-image: url(projects/1.png);
+	clear: both;
+	float: left;
+}
+#jwp {
+	margin: 20px;
+	width: 353px;
+	height: 496px;
+	background-image: url(projects/JhonWick.png);
+	clear: both;
+	float: left;
+}
+
+
+/* column two */
+
+.proj2{
+	width: 354px;
+	float: left;
+}
+
+#dgbc{
+	margin: 20px;
+	width: 353px;
+	height: 217px;
+	background-image: url(projects/bcsample3.jpg);
+	clear: both;
+	float: left;
+
+}
+#areobc{
+	margin: 20px;
+	width: 353px;
+	height: 217px;
+	background-image: url(projects/bcsampleaerio.jpg);
+	clear: both;
+	float: left;
+
+}
+#can{
+	margin: 20px;
+	width: 353px;
+	height: 417px;
+	background-image: url(projects/4.png);
+	clear: both;
+	float: left;
+}
+#alh{
+	margin: 20px;
+	width: 353px;
+	height: 233px;
+	background-image: url(projects/alienwareMockups.jpg);
+	clear: both;
+	float: left;
+}
+#abc{
+	margin: 20px;
+	width: 353px;
+	height: 111px;
+	background-image: url(projects/5.png);
+	clear: both;
+	float: left;
+}
+#sod_site{
+	margin: 20px;
+	width: 353px;
+	height: 191px;
+	background-image: url(projects/6.png);
+	clear: both;
+	float: left;
+}
+
+
+/* column three */
+
+.proj3{
+	width: 354px;
+	margin-left: 40px;
+	float: left;
+	margin-bottom: 120px;
+}
+#travelphoto{
+	margin: 20px;
+	width: 353px;
+	height: 351px;
+	background-image: url(projects/IMG_5993.JPG);
+	clear: both;
+	float: left;
+}
+#nyc{
+	margin: 20px;
+	width: 353px;
+	height: 499px;
+	background-image: url(projects/3.png);
+	clear: both;
+	float: left;
+}
+#awl{
+	margin: 20px;
+	width: 353px;
+	height: 424px;
+	background-image: url(projects/2.png);
+	clear: both;
+	float: left;
+}
+
+/*   back to top button   */
+
+
+#btt {
+	padding: 10px 20px;
+	text-align: center;
+	margin-left: 650px;
+	margin-right: 650px;
+	margin-bottom: 150px;
+	border: 2px solid black;
+	border-radius: 25px;
+}
+/*styling of the button*/
